@@ -7,4 +7,5 @@ and not boo
 don't be scared 
 of losing your way
 because this github thing
-isn't al gay. 
+isn't all gay. 
+and more
