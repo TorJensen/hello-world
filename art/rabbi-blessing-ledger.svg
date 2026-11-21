@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#fff6d8"/>
+      <stop offset="1" stop-color="#f3c98b"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff3a0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <!-- banner -->
+  <path d="M170 70 H630 L605 110 L630 150 H170 L195 110 Z" fill="#2f5aa8" stroke="#1d3a72" stroke-width="5" stroke-linejoin="round"/>
+  <text x="400" y="126" text-anchor="middle" font-family="'Noto Sans Hebrew','DejaVu Sans',sans-serif" font-size="46" font-weight="bold" fill="#fff">ברכה והצלחה</text>
+
+  <!-- sparkles -->
+  <g fill="#ffd23f" stroke="#e0a800" stroke-width="2" stroke-linejoin="round">
+    <path d="M110 260 l10 25 l25 10 l-25 10 l-10 25 l-10 -25 l-25 -10 l25 -10 z"/>
+    <path d="M690 240 l8 20 l20 8 l-20 8 l-8 20 l-8 -20 l-20 -8 l20 -8 z"/>
+    <path d="M660 470 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z"/>
+    <path d="M140 500 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z"/>
+  </g>
+
+  <!-- coat -->
+  <path d="M200 800 Q205 575 400 535 Q595 575 600 800 Z" fill="#23232b" stroke="#111" stroke-width="5"/>
+  <path d="M372 545 L400 640 L428 545 Z" fill="#fff" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- ears -->
+  <circle cx="306" cy="385" r="20" fill="#f2c29a" stroke="#6b3e22" stroke-width="4"/>
+  <circle cx="494" cy="385" r="20" fill="#f2c29a" stroke="#6b3e22" stroke-width="4"/>
+  <!-- sidelocks -->
+  <path d="M302 405 q-18 15 0 30 q18 15 0 30 q-18 15 0 30" fill="none" stroke="#e9e9e9" stroke-width="9" stroke-linecap="round"/>
+  <path d="M498 405 q18 15 0 30 q-18 15 0 30 q18 15 0 30" fill="none" stroke="#e9e9e9" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- face -->
+  <ellipse cx="400" cy="380" rx="92" ry="98" fill="#f6cba5" stroke="#6b3e22" stroke-width="5"/>
+
+  <!-- beard -->
+  <path d="M312 395 Q300 490 345 545 Q372 590 400 600 Q428 590 455 545 Q500 490 488 395 Q470 455 400 460 Q330 455 312 395 Z" fill="#fbfbfb" stroke="#9a9a9a" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#c9c9c9" stroke-width="3" stroke-linecap="round">
+    <path d="M350 490 q8 20 0 40"/><path d="M400 500 q8 25 0 55"/><path d="M450 490 q-8 20 0 40"/>
+  </g>
+  <!-- mustache -->
+  <path d="M400 437 Q370 420 345 445 Q370 452 400 445 Q430 452 455 445 Q430 420 400 437 Z" fill="#fff" stroke="#9a9a9a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- smile -->
+  <path d="M385 462 Q400 474 415 462" fill="none" stroke="#6b3e22" stroke-width="4" stroke-linecap="round"/>
+  <!-- nose -->
+  <path d="M400 385 Q414 412 398 420" fill="none" stroke="#b87a50" stroke-width="4" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="345" cy="410" r="14" fill="#f19a8e" opacity="0.6"/>
+  <circle cx="455" cy="410" r="14" fill="#f19a8e" opacity="0.6"/>
+  <!-- closed happy eyes + glasses -->
+  <path d="M352 372 Q365 360 378 372" fill="none" stroke="#2a1a10" stroke-width="5" stroke-linecap="round"/>
+  <path d="M422 372 Q435 360 448 372" fill="none" stroke="#2a1a10" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="365" cy="370" r="25" fill="#ffffff" fill-opacity="0.18" stroke="#222" stroke-width="4"/>
+  <circle cx="435" cy="370" r="25" fill="#ffffff" fill-opacity="0.18" stroke="#222" stroke-width="4"/>
+  <path d="M390 368 Q400 362 410 368" fill="none" stroke="#222" stroke-width="4"/>
+  <!-- eyebrows -->
+  <path d="M345 335 Q365 325 385 335" fill="none" stroke="#e5e5e5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M415 335 Q435 325 455 335" fill="none" stroke="#e5e5e5" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- hat -->
+  <ellipse cx="400" cy="300" rx="150" ry="30" fill="#18181d" stroke="#000" stroke-width="5"/>
+  <path d="M318 300 L328 205 Q400 180 472 205 L482 300 Z" fill="#23232b" stroke="#000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M322 268 Q400 282 478 268 L481 292 Q400 306 319 292 Z" fill="#3b3b47"/>
+  <path d="M355 215 Q400 205 445 215" fill="none" stroke="#3f3f4c" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- blessing glow over ledger -->
+  <ellipse cx="400" cy="690" rx="230" ry="90" fill="url(#glow)"/>
+
+  <!-- table -->
+  <rect x="0" y="720" width="800" height="80" fill="#8b5a2b"/>
+  <rect x="0" y="712" width="800" height="16" fill="#a8743f"/>
+
+  <!-- ledger book -->
+  <path d="M195 768 L225 668 Q315 652 400 676 L400 780 Q300 758 195 768 Z" fill="#fffaf0" stroke="#5a3a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M605 768 L575 668 Q485 652 400 676 L400 780 Q500 758 605 768 Z" fill="#fffaf0" stroke="#5a3a1a" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#9cb6d8" stroke-width="2.5">
+    <path d="M222 692 Q310 680 392 698"/><path d="M216 712 Q308 700 392 718"/>
+    <path d="M210 732 Q305 720 392 738"/><path d="M204 752 Q302 740 392 758"/>
+    <path d="M408 698 Q470 684 545 688"/><path d="M408 718 Q470 704 551 708"/>
+    <path d="M408 738 Q470 724 557 728"/><path d="M408 758 Q470 744 563 748"/>
+  </g>
+  <g stroke="#e07070" stroke-width="2"><path d="M330 682 L322 765"/></g>
+  <!-- bitcoin coin -->
+  <circle cx="500" cy="722" r="30" fill="#f7931a" stroke="#b5650a" stroke-width="5"/>
+  <text x="500" y="737" text-anchor="middle" font-family="'DejaVu Sans',sans-serif" font-size="40" font-weight="bold" fill="#fff">₿</text>
+
+  <!-- arms -->
+  <path d="M255 600 Q262 640 310 640" fill="none" stroke="#23232b" stroke-width="48" stroke-linecap="round"/>
+  <path d="M545 600 Q538 640 490 640" fill="none" stroke="#23232b" stroke-width="48" stroke-linecap="round"/>
+  <!-- cuffs -->
+  <rect x="300" y="618" width="16" height="44" rx="5" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="484" y="618" width="16" height="44" rx="5" fill="#fff" stroke="#111" stroke-width="3"/>
+  <!-- hands (palms down, blessing) -->
+  <g fill="#f6cba5" stroke="#6b3e22" stroke-width="4" stroke-linejoin="round">
+    <path d="M314 624 Q350 615 382 628 Q392 640 380 648 Q350 656 314 656 Z"/>
+    <path d="M486 624 Q450 615 418 628 Q408 640 420 648 Q450 656 486 656 Z"/>
+  </g>
+  <g fill="none" stroke="#6b3e22" stroke-width="3" stroke-linecap="round">
+    <path d="M345 636 L372 638"/><path d="M345 645 L370 646"/>
+    <path d="M455 636 L428 638"/><path d="M455 645 L430 646"/>
+  </g>
+
+  <!-- blessing rays -->
+  <g stroke="#ffbf1f" stroke-width="5" stroke-linecap="round">
+    <path d="M350 668 L345 684"/><path d="M370 668 L372 684"/>
+    <path d="M450 668 L455 684"/><path d="M430 668 L428 684"/>
+    <path d="M400 640 L400 660"/>
+  </g>
+</svg>
